@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    
+}
+.pd70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.pd46 {
+    padding-top: 46px;
+}
+/*header*/
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #2fa6bc;
+    
+}
+.logo img {
+    padding-right: 9px;
+}
+.logo:hover {
+    color: #2fa6bc;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
+header {
+    padding-top: 15px;
+}
+.top-menu {
+    background: transparent;
+}
+.top-menu a {
+    font: 13px 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0;
+    padding-right: 23px;
+}
+.top-menu li:last-child a {
+    padding-right: 0;
+}
+.top-menu a:hover {
+    color: #0bbcb8;
+}
+.top-menu ul {
+    margin: 10px 0;
+}
+
+/*top-block section*/
+.separator {
+    width: 50px;
+    height: auto;
+    border: 1px solid #00e0d0;
+}
+.top-block {
+    background-image: url(../images/top-block-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.top-block h2 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 32px;
+    padding-top: 143px;
+    padding-bottom: 25px;
+}
+.top-block p {
+    color: #fff;
+    padding: 27px 10px 53px;
+}
+button {
+    padding: 12px 14px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    background: transparent;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    color: #00e0d0;
+}
+.top-block button, .story-block button {
+    display: block;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition:all 1s ease;
+}
+.top-block button:hover, .story-block button:hover {
+    box-shadow: inset 120px 0 0 0 #00e0d0;
+    color: white;
+}
+
+/*Story block section*/
+.story-block img {
+    width:240px;
+    height: 240px;
+}
+.story-block h3 {
+    font: 22px 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #413d4b;
+    margin-top:0;
+}
+.story-block p {
+    font: 14px/22px 'Roboto', sans-serif;
+    color: #413d4b;
+}
+.story-block button {
+    margin-top: 34px;
+}
+
+/*slider*/
+.bxslider li {
+    position: relative;
+}
+.slide-text {
+    position: absolute;
+    top:100px;
+    left:20%;
+}
+.slide-text h3 {
+    font: 32px 'Playfair Display', serif;
+}
+.slide-text p {
+    font: 20px/22px 'Roboto', sans-serif;
+}
+.bxslider li:last-child div {
+    color: grey;
+}
+.bx-wrapper {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom:20px;
+}
+
+/*team-block*/
+.team-block {
+    width: 100%;
+    background-image: url(../images/team-block-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-block h3 {
+    font: 22px 'Playfair Display', serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.team-block p {
+    font: 14px 'Playfair Display', serif;
+    color: #f9f9f9;
+    letter-spacing: 1.8px;
+}
+.divider {
+    width: 50px;
+    padding-top: 20px;
+    height: auto;
+    border-bottom: 2px solid #655c80;
+}
+.team h4 {
+    font: 14px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 21px;
+    font-weight: bold;
+}
+.team p {
+    font: 13px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-weight: 300;
+}
+.text-wrap {
+    width: 220px;
+    position: relative;
+    top:-9px;
+    border-left: 1px solid #655c80;
+    border-right: 1px solid #655c80;
+    border-bottom: 1px solid #655c80;
+}
+.team img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.team img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.line {
+    width: 220px;
+    border-bottom: 1px solid #655c80;
+}
+
+/*Mobile devices*/
+@media screen and (max-width: 480px) {
+    .top-nav-item {
+        width:100%;
+    }
+    .top-menu a {
+        padding-right: 0;
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top-menu a {
+        padding-right: 5px;
+    }
+}
